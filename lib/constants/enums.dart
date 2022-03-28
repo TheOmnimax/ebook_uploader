@@ -1,0 +1,15 @@
+enum LoginResult {
+  success,
+  disabled,
+  invalidEmail,
+  wrongPassword,
+  weakPassword,
+  missingEmail,
+  missingPassword,
+  missingReenter,
+  passwordMismatch,
+  notFound,
+  usedUsername,
+  brute,
+  unknownError,
+}
