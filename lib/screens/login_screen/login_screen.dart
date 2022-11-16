@@ -39,15 +39,6 @@ class LoginScreen extends StatelessWidget {
             body: SafeArea(
               child: Column(
                 children: [
-                  TextButton(
-                    onPressed: () {
-                      Navigator.popAndPushNamed(context, '/register');
-                    },
-                    child: const Align(
-                      alignment: Alignment.topRight,
-                      child: Text('Register'),
-                    ),
-                  ),
                   Expanded(
                     child: Padding(
                       padding: const EdgeInsets.only(bottom: 35),
