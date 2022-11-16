@@ -53,7 +53,7 @@ class UploaderBloc extends Bloc<UploaderEvent, UploaderState> {
 
     final statusCode = response.statusCode;
 
-    final responseBodyRaw = response.body as String;
+    final responseBodyRaw = response.body;
     final responseBody = json.decode(responseBodyRaw) as Map<String, dynamic>;
 
     final String message;
